@@ -1,0 +1,145 @@
+/* *{
+    margin: 0;
+    max-width: 100%;
+} */
+html,body{
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    /* box-sizing: border-box; */
+    /* overflow-x: hidden; */
+}
+.header-image{
+    width: 20%;
+}
+.head:hover{
+    text-decoration: underline;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+.carousel-inner img{
+    width: 100%;
+}
+#lists{
+    margin-bottom: -5px
+}
+/* #carouselButtons {
+    margin-left: 300px;
+    position: absolute;
+    bottom: 0px;
+    color: red;
+} */
+.nav-item {
+    position: relative;
+    display: inline-block;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+}
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.nav-item:hover .dropdown-menu {display: block;}
+
+/* #colm-1{ */
+    /* position: relative; */
+    /* outline-style: solid;
+    outline-color: white;
+    outline-width: 10px; */
+/* } */
+#gadget{
+    height: 35rem;
+}
+.heading{
+    width: 20em;
+}
+.promotion{
+    transform: scale(0.9);
+    transition: .8s ease-in-out;
+}
+.promotion:hover{
+    transform: scale(1);
+}
+#a:hover {
+    border-bottom-color: black;
+}
+.final-sec{
+    background-color: #f5f5f5;
+    display: block !important;
+
+}
+.rog li{
+    text-align: left;
+
+}
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #0563bb;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+  }
+  
+  .back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+  }
+  
+  .back-to-top:hover {
+    background: #0678e3;
+    color: #fff;
+  }
+  
+  .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+  #foot li{
+    list-style-type: none;
+  }
+  #foot a{
+    color: #666;
+    text-decoration: none;
+    font-size: .8125rem;
+  }
+  #copyright a{
+    text-decoration: none;
+    color: #666;
+    font-size: 13px;
+
+
+  }
+  #about h1{
+    font-size: .8125rem;
+
+  }
+  #about{
+    flex-wrap: wrap;
+    /* display: block !important; */
+  }
+  @media screen and(max-width:700px) {
+    #about{
+        font-size: 4px;
+    }
+    #about li{
+        display: none;
+    }
+    
+  }
+  
